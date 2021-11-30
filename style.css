@@ -1,0 +1,51 @@
+body{
+text-align: center;
+margin: 0;
+background: linear-gradient(#b990f5 0%,#680af5 100%);
+}
+#home{
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+img{
+width:400px;
+height:400px;
+border-radius:50%;
+margin-top:30px;
+}
+.line{
+background-color: cornflowerblue;
+width:100px;
+height:7px;
+margin:25px auto;
+}
+p{
+font-size: 25px;
+max-width: 500px;
+margin: 25px auto;
+line-height:1.5;
+justify-content: center;
+}
+.menu{
+list-style: none;
+position: fixed;
+top: 20px;
+right: 100px;
+cursor: pointer;
+}
+.links{
+float: left;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-top: 5px;
+font-style: italic;
+}
+.links:hover{
+background-color: coral;
+}
+h1{
+font-family: 'Lobster', cursive;
+}
